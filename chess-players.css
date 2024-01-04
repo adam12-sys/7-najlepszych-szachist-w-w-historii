@@ -1,0 +1,20 @@
+body {
+
+        text-align: center;
+        margin-bottom: 20vh;
+    }
+
+.tytulowy {
+        font-size: 5vh;
+        font-weight: bold;
+}
+
+p {
+    font-size: 4vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+

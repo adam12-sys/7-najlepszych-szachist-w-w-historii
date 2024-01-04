@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Szachiści</title>
+    <link rel="stylesheet" href="informacje-do-szachistow.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body1">
+    <form action="mailto:adam.chmielinski@tm1.edu.pl">
+        <p class="p1">Formularz</p>
+
+        <h1>Wypełnij formularz</h1>	
+        <label for="imie">Imię: </label>
+        <input type="text" name="imie" id="imie" class="dane-personalne">
+        <br>
+        <br>
+        <label for="nazwisko">Nazwisko:  </label>
+        <input type="text" name="nazwisko" id="nazwisko" maxlength="50" size="40">
+        <br>
+        <br>
+        <label for="wiek">Wiek:  </label>
+        <input type="text" name="wiek" id="wiek" maxlength="4" size="5">
+        <br>
+        <br>
+        <p class="p3">Podaj płeć</p>
+        <input type="radio" name="plec" id="kobieta" value="kobieta" >
+	    <label for="kobieta" >Kobieta</label>
+
+        <input type="radio" name="plec" id="mezczyzna" value="mezczyzna" >
+	    <label for="mezczyzna" >Mężczyzna</label>
+        <br>
+        <br>
+        <p class="p3">Czy poprzeczytaniu biogramów tych niezwykłych ludzi zamierzasz grać szachy?</p>
+        <input type="radio" name="gra-w-szachy" id="gra-w-szachy" value="Tak">
+        <label for="gra-w-szachy">Tak</label>
+        <input type="radio" name="gra-w-szachy" id="gra-w-szachy" value="Nie">
+        <label for="gra-w-szachy">Nie</label>
+        <input type="radio" name="gra-w-szachy" id="gra-w-szachy" value="juz-gram">
+        <label for="juz-gram">Już gram</label>
+
+        <p class="p3">Który z tych arcymitrzów jest lub będzie twoim mentorem?</p>
+        <select name="mentor" id="mentor">
+        <option value="magnus-carlsen">Magnus Carlsen</option>
+        <option value="garry-kasparov">Garry Kasparov</option>
+        <option value="michail-botwinik">Michaił Botwinnik</option>
+        <option value="bobby-fisher">Bobby Fisher</option>
+        <option value="anatolij-karpov">Anatolij Karpov</option>
+        <option value="jose-capablanka">José Capablanka</option>
+        <option value="emanuel-lasker">Emanuel Lasker</option>
+        </select>
+        <br>
+        <label>Z którym arcymistrzem chciałbyś/chciałabyś spotkać się z arcymistrzem, niezależnie od roku, czasu i innych okoliczności ?</label>
+        <br>
+        <textarea id="uwagi" name="uwagi" maxlength="500" cols="20" rows="10">Napisz o tym wymarzonym spotkaniu</textarea>
+        <br>
+        <br>
+        <input type="reset" value="Wyczyść Formularz" >
+    <input type="submit" value="Prześlij formularz" onClick="alert('Dziękujemy za wypełnienie formularza')">
+
+    </form>
+    <br>
+
+</body>
+</html>
